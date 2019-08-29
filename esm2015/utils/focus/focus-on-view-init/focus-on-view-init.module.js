@@ -1,0 +1,20 @@
+import * as tslib_1 from "tslib";
+/*
+ * Copyright (c) 2016-2019 VMware, Inc. All Rights Reserved.
+ * This software is released under MIT license.
+ * The full license information can be found in LICENSE in the root directory of this project.
+ */
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { FOCUS_ON_VIEW_INIT_DIRECTIVES } from './index';
+let ClrFocusOnViewInitModule = class ClrFocusOnViewInitModule {
+};
+ClrFocusOnViewInitModule = tslib_1.__decorate([
+    NgModule({
+        imports: [CommonModule],
+        declarations: [FOCUS_ON_VIEW_INIT_DIRECTIVES],
+        exports: [FOCUS_ON_VIEW_INIT_DIRECTIVES],
+    })
+], ClrFocusOnViewInitModule);
+export { ClrFocusOnViewInitModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZm9jdXMtb24tdmlldy1pbml0Lm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BjbHIvYW5ndWxhci8iLCJzb3VyY2VzIjpbInV0aWxzL2ZvY3VzL2ZvY3VzLW9uLXZpZXctaW5pdC9mb2N1cy1vbi12aWV3LWluaXQubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTs7OztHQUlHO0FBQ0gsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFFekMsT0FBTyxFQUFFLDZCQUE2QixFQUFFLE1BQU0sU0FBUyxDQUFDO0FBT3hELElBQWEsd0JBQXdCLEdBQXJDLE1BQWEsd0JBQXdCO0NBQUcsQ0FBQTtBQUEzQix3QkFBd0I7SUFMcEMsUUFBUSxDQUFDO1FBQ1IsT0FBTyxFQUFFLENBQUMsWUFBWSxDQUFDO1FBQ3ZCLFlBQVksRUFBRSxDQUFDLDZCQUE2QixDQUFDO1FBQzdDLE9BQU8sRUFBRSxDQUFDLDZCQUE2QixDQUFDO0tBQ3pDLENBQUM7R0FDVyx3QkFBd0IsQ0FBRztTQUEzQix3QkFBd0IiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogQ29weXJpZ2h0IChjKSAyMDE2LTIwMTkgVk13YXJlLCBJbmMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuXG4gKiBUaGlzIHNvZnR3YXJlIGlzIHJlbGVhc2VkIHVuZGVyIE1JVCBsaWNlbnNlLlxuICogVGhlIGZ1bGwgbGljZW5zZSBpbmZvcm1hdGlvbiBjYW4gYmUgZm91bmQgaW4gTElDRU5TRSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBwcm9qZWN0LlxuICovXG5pbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuaW1wb3J0IHsgRk9DVVNfT05fVklFV19JTklUX0RJUkVDVElWRVMgfSBmcm9tICcuL2luZGV4JztcblxuQE5nTW9kdWxlKHtcbiAgaW1wb3J0czogW0NvbW1vbk1vZHVsZV0sXG4gIGRlY2xhcmF0aW9uczogW0ZPQ1VTX09OX1ZJRVdfSU5JVF9ESVJFQ1RJVkVTXSxcbiAgZXhwb3J0czogW0ZPQ1VTX09OX1ZJRVdfSU5JVF9ESVJFQ1RJVkVTXSxcbn0pXG5leHBvcnQgY2xhc3MgQ2xyRm9jdXNPblZpZXdJbml0TW9kdWxlIHt9XG4iXX0=
